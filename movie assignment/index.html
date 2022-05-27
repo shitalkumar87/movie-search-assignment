@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]{
+        padding: 12px;
+        border :1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 5px;
+         
+    }
+
+    button{
+        padding: 12px;
+         border: none;
+         border-radius: 10px;
+         font-size: 20px;
+         cursor: pointer;
+         background-color: teal;
+    }
+
+    
+    #map{
+         margin: auto;
+         text-align: center;
+     }
+     #box{
+         height: 300px;
+         width: 250px;
+         /* border: 1px solid black; */
+         margin: auto;
+         margin-top: 50px;
+         overflow: scroll;
+         text-align: center;
+     }
+     img{
+         height: 200px;
+         width: 100%;
+     }
+
+    </style>
+</head>
+<body>
+    <div id="map">
+        <input type="text" id="movie" >
+        <button onclick="getdata()">Search movie</button>
+    </div>
+             
+    <div id="box">
+
+       </div>
+</body>
+</html>
+<script src="./index.js"></script>
